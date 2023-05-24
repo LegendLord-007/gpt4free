@@ -6,7 +6,7 @@ import fake_useragent
 import names
 
 from mailgw_temporary_email import Email
-from password_generator import PasswordGenerator
+#from password_generator import PasswordGenerator
 
 
 class Account:
