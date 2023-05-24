@@ -39,7 +39,7 @@ class Completion:
             chat = []
      #   proxy = '127.0.0.1:15732'
      #   proxies = {'http': 'http://' + proxy, 'https': 'http://' + proxy} if proxy else {}
-
+        proxies = {}
         client = Session(client_identifier='chrome_108')
         client.headers = Completion.__get_headers()
         client.proxies = proxies
